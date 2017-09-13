@@ -9,6 +9,7 @@ CREATE COMPUTE MODULE aad_Compute
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
 		DECLARE x CHARACTER;
+		DECLARE Y CHARACTER;
 		SET x = 'var';
 		RETURN TRUE;
 	END;
